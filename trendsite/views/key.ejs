@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/stylesheets/home2.css" />
+</head>
+<body>
+    <header style="padding: 10px; padding-bottom: 5px;">
+        <h1 id = "title" style="text-align: center;"> <strong>Polarity and Subjectivity</strong> </h1>
+        <br />
+        <div class = h><h2 style="text-align: center;"><p><%= keyword %></p></h2></div>
+        
+      </header>
+      <br />
+      <br />
+
+      <div class = "explain">
+        <div class = "nbEx" >Polarity is float which lies in the range of [-1,1]<br />
+             where 1 means positive statement and -1 means a negative statement.</p></div>
+        <div class = "sdEx"> <div class = "con">The degree to which a person is personally involved in an object.</div></p></div>
+      </div>
+      
+      <br />
+      <br />
+      <br />
+
+      <div class = "detail">
+        <div class = "nb" >Polarity <p><%= polarity.toPrecision(2) %></p></div>
+        <div class = "sd">Subjectivity <p><%= subjectivity.toPrecision(2) %></p></div>
+      </div>
+</body>
+</html>
+

@@ -1,0 +1,82 @@
+body {
+  min-width: 1080px;
+  line-height: 1.6;
+  font-family: Roboto, Avenir, sans-serif;
+  padding: 10px;
+}
+
+header{
+  color: rgb(29, 161, 242);
+}
+.keywords {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+  }
+.keywords5{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 130px;
+    justify-content: center;
+}
+  
+  .keyword1 {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid gray;
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    cursor: Pointer;
+  }
+  
+  .keyword1__title {
+    font-size: 21px;
+    font-weight: bold;
+    color: rgb(20,23,29);
+    height: 30px;
+    margin-left: 30px;
+    
+  }
+  
+  .keyword1__cost {
+    font-weight: bold;
+    font-size: large;
+    margin-top: 10px;
+    color: rgb(29, 161, 242);
+    margin-left: 150px;
+  }
+  
+  /* .keyword1__data {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .keyword1__data__percentage {
+    color: green;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  
+  .keyword1__data__day {
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 5px;
+  } */
+
+  .charts{
+      display: flex;
+      flex-direction: row;
+      
+  }
+  .chart1{
+    flex-basis: 50%;
+    /* padding-right: 20cm; */
+  }
+  .chart2{
+    flex-basis: 50%;
+  }
+  

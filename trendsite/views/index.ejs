@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <title>Main</title>
+    <link rel="stylesheet" href="/stylesheets/home.css" />
+    <script src="/javascripts/cchart.js"></script>
+    <script src="/javascripts/pchart.js"></script>
+  </head>
+  <body>
+    <header style="padding: 10px; padding-bottom: 5px;">
+      <h1 id = "title" style="text-align: center;"> <strong>Analysis with Twitter Trendings</strong> </h1>
+    </header>
+
+  <div class = "mainpage">
+    <div class="keywords">
+        <div class = "keywords5">
+        <div class="keyword1" onclick="location.href='/key/1'">
+            <div class="keyword1__title"><p><%= keyword[0][0] %></p></div>
+            <div class="keyword1__cost"><p id = 'cb0'></p></div>
+          
+          </div>
+
+        <div class="keyword1" onclick="location.href='/key/2'">
+            <div class="keyword1__title"><p><%= keyword[1][0] %></p></div>
+            <div class="keyword1__cost"><p id = 'cb1'></p></div>
+            
+          </div>
+
+        <div class="keyword1" onclick="location.href='/key/3'">
+            <div class="keyword1__title"><p><%= keyword[2][0] %></p></div>
+            <div class="keyword1__cost"><p id = 'cb2'></p></div>
+            
+          </div>
+        <div class="keyword1" onclick="location.href='/key/4'">
+            <div class="keyword1__title"><p><%= keyword[3][0] %></p></div>
+            <div class="keyword1__cost"><p id = 'cb3'></p></div>
+            
+          </div>
+
+        <div class="keyword1" onclick="location.href='/key/5'">
+            <div class="keyword1__title"><p><%= keyword[4][0] %></p></div>
+            <div class="keyword1__cost"><p id = 'cb4'></p></div>
+            
+          </div>
+        </div>
+
+        <div class = "keywords5">
+      <div class="keyword1" onclick="location.href='/key/6'">
+        <div class="keyword1__title"><p><%= keyword[5][0] %></p></div>
+        <div class="keyword1__cost"><p id = 'cb5'></p></div>
+        
+      </div>
+      <div class="keyword1" onclick="location.href='/key/7'">
+        <div class="keyword1__title"><p><%= keyword[6][0] %></p></div>
+        <div class="keyword1__cost"><p id = 'cb6'></p></div>
+        
+      </div>
+      <div class="keyword1" onclick="location.href='/key/8'">
+        <div class="keyword1__title"><p><%= keyword[7][0] %></p></div>
+        <div class="keyword1__cost"><p id = 'cb7'></p></div>
+        
+      </div>
+      <div class="keyword1" onclick="location.href='/key/9'">
+        <div class="keyword1__title"><p><%= keyword[8][0] %></p></div>
+        <div class="keyword1__cost"><p id = 'cb8'></p></div>
+        
+      </div>
+      <div class="keyword1" onclick="location.href='/key/10'">
+        <div class="keyword1__title"><p><%= keyword[9][0] %></p></div>
+        <div class="keyword1__cost"><p id = 'cb9'></p></div>
+      </div>
+    </div>
+  </div>
+  <div class = "charts">
+    <div class ="chart1" >
+        <div id = "columnchart" style = "padding-left: 80px;" ></div>
+    </div>
+    <div class ="chart2" >
+        <div id = "piechart" style = "padding-right: 40px;"></div>
+    </div>
+  </div>
+  </body>
+</html>
+
+
+
+
+
+
+
+

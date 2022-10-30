@@ -1,0 +1,15 @@
+{
+  "name": "sm22-teamproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1134.0",
+    "mkdirp": "^1.0.4"
+  }
+}
